@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MINIPC GUIDE</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Навігація -->
+  <header>
+    <div class="logo">MINIPC GUIDE</div>
+    <nav>
+      <a href="#">🏠 Головна</a>
+      <a href="#">📦 Огляди</a>
+      <a href="#">📰 Статті</a>
+      <a href="#">⭐ Рейтинг</a>
+      <a href="#">📞 Контакти</a>
+    </nav>
+    <div class="lang-switch">
+      <select id="language-select">
+        <option value="en">English</option>
+        <option value="uk">Українська</option>
+        <option value="de">Deutsch</option>
+        <option value="fr">Français</option>
+        <option value="es">Español</option>
+        <option value="pl">Polski</option>
+      </select>
+    </div>
+  </header>
+
+  <!-- Категорії -->
+  <section class="categories">
+    <button data-category="all">Усі</button>
+    <button data-category="gaming">🎮 Для ігор</button>
+    <button data-category="office">💼 Для офісу</button>
+    <button data-category="home">🏠 Для дому</button>
+    <button data-category="budget">💲 Бюджетні</button>
+    <button data-category="premium">💎 Преміум</button>
+  </section>
+
+  <!-- Карточки -->
+  <main class="cards" id="product-list">
+    <div class="card" data-category="gaming">
+      <img src="https://via.placeholder.com/250x150" alt="Mini PC 1" />
+      <h3>Mini PC Gaming X1</h3>
+      <p>Потужний міні-ПК для ігор.</p>
+      <a href="https://www.amazon.com/" target="_blank">Купити на Amazon</a>
+    </div>
+
+    <div class="card" data-category="office">
+      <img src="https://via.placeholder.com/250x150" alt="Mini PC 2" />
+      <h3>Mini PC Office Pro</h3>
+      <p>Оптимальне рішення для офісу.</p>
+      <a href="https://www.amazon.com/" target="_blank">Купити на Amazon</a>
+    </div>
+
+    <div class="card" data-category="budget">
+      <img src="https://via.placeholder.com/250x150" alt="Mini PC 3" />
+      <h3>Mini PC Budget S2</h3>
+      <p>Доступний варіант для дому та офісу.</p>
+      <a href="https://www.amazon.com/" target="_blank">Купити на Amazon</a>
+    </div>
+
+    <div class="card" data-category="premium">
+      <img src="https://via.placeholder.com/250x150" alt="Mini PC 4" />
+      <h3>Mini PC Premium Z5</h3>
+      <p>Елітний варіант з високою продуктивністю.</p>
+      <a href="https://www.amazon.com/" target="_blank">Купити на Amazon</a>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 MINIPC GUIDE. Всі права захищені.</p>
+    <p>Проєкт створено для оглядів та порад щодо вибору міні-ПК.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
